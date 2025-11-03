@@ -85,8 +85,8 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "dee7ee1a-eefa-30ea-8345-607194a08ad4",
       "position" : {
-        "x" : -99.00006103515625,
-        "y" : 376.3920135498047
+        "x" : -112.0,
+        "y" : 376.0
       }
     } ],
     "identifier" : "flow-contents-group",
@@ -119,8 +119,8 @@
       "name" : "UpdateAttribute",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -288.0,
-        "y" : 160.0
+        "x" : -272.0,
+        "y" : 152.0
       },
       "properties" : {
         "Store State" : "Do not store state",
@@ -184,12 +184,13 @@
       "name" : "GenerateFlowFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -278.50006103515625,
-        "y" : -85.80401611328125
+        "x" : -272.0,
+        "y" : -88.0
       },
       "properties" : {
         "character-set" : "UTF-8",
         "File Size" : "0B",
+        "generate-ff-custom-text" : "some nonsense goes here",
         "Batch Size" : "1",
         "Unique FlowFiles" : "false",
         "Data Format" : "Text"
@@ -266,6 +267,6 @@
   "snapshotMetadata" : {
     "author" : "DANIEL.LEVKOVITZ@SCIPLAY.COM",
     "flowIdentifier" : "MyFlow",
-    "timestamp" : 1762175341598
+    "timestamp" : 1762178320537
   }
 }
